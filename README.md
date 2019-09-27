@@ -37,7 +37,7 @@ Cada dígito (0-9) é considerado um usuário que produz multiplas instâncias.
 ![Embeddings](imgs/tsne_mnist.png)
 
 ## **Voxforge** dataset
-
+ 
 * WAV 22050 Hz
 * 187 Usuários (150 treino, 37 teste)
 
@@ -52,3 +52,4 @@ Com uma LSTM Bidirecional e a função de custo (método batch *hard*) com N= 10
 
 ![loss_lstm](imgs/tsne_lstm.png)
 
+-------------------
