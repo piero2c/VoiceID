@@ -17,24 +17,24 @@ i assim como dos demais usuários do sistema).
 
 **Objetivo**: Aprender uma função g:R^N->R^D (D<<N), que mantém g(A) mais perto de g(P) do que g(N), com uma margem m de segurança, isto é,
 
-![Triplet_learning](imgs/triplet_loss.png)
+![Triplet_learning](imgs/triplet_loss_.png)
 
 ## *Toy example*: MNIST
 
 Cada dígito (0-9) é considerado um usuário que produz multiplas instâncias.
 
-![Triplet_learning](imgs/nn_mnist.png)
+![Triplet_learning](imgs/nn_mnist_.png)
 
 ### Matriz de distâncias
 
 * Quadrantes diagonais: distâncias entre instâncias de um mesmo usuário
 * Quadrantes restantes: distâncias entre usuários diferentes
 
-![Distance_matrix_learning](imgs/distance_matrix_mnist.gif)
+![Distance_matrix_learning](imgs/distance_matrix_mnist_.gif)
 
 ### Embeddings (conjunto de teste)
 
-![Embeddings](imgs/tsne_mnist.png)
+![Embeddings](imgs/tsne_mnist_.png)
 
 ## **Voxforge** dataset
  
@@ -45,11 +45,11 @@ Cada dígito (0-9) é considerado um usuário que produz multiplas instâncias.
 
 Com uma LSTM Bidirecional e a função de custo (método batch *hard*) com N= 10 e M = 5
 
-![loss_lstm](imgs/loss_lstm.png)
+![loss_lstm](imgs/loss_lstm_.png)
 
 
 #### Embeddings (dados de teste)
 
-![loss_lstm](imgs/tsne_lstm.png)
+![loss_lstm](imgs/tsne_lstm_.png)
 
 -------------------
