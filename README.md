@@ -1,6 +1,6 @@
 # Verificação de Locutor com *Triplet Loss*
 
-** Trabalho de final de curso da disciplina PSI3501-2018**
+**Trabalho de final de curso da disciplina PSI3501-2018**
 
 Verificação de Locutor (VL) ou autenticação de locutor é uma tarefa de bio-
 metria que consiste em confirmar a identidade de um indivı́duo i por meio de
