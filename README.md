@@ -10,6 +10,8 @@ i assim como dos demais usuários do sistema).
 
 ## *Triplet Loss*
 
+![Triplet_learning](imgs/triplet_loss_.png)
+
 ### Tripla (A, P, N)
 * Instância chave (A) de um usuário i
 * Instância positiva (P) do mesmo usuário i
@@ -17,7 +19,7 @@ i assim como dos demais usuários do sistema).
 
 **Objetivo**: Aprender uma função g:R^N->R^D (D<<N), que mantém g(A) mais perto de g(P) do que g(N), com uma margem m de segurança, isto é,
 
-![Triplet_learning](imgs/triplet_loss_.png)
+![Obj](imgs/triple_uneq.png)
 
 ## *Toy example*: MNIST
 
