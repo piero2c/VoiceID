@@ -33,6 +33,7 @@ Cada dígito (0-9) é considerado um usuário que produz multiplas instâncias.
 * Quadrantes restantes: distâncias entre usuários diferentes
 
 ![Distance_matrix_learning](imgs/distance_matrix_mnist_.gif)
+\[Evolução da matriz de distâncias durante o treinamento (em *loop*)\]
 
 ### Embeddings (conjunto de teste)
 
